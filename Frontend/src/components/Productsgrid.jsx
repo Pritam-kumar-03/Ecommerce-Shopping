@@ -20,7 +20,7 @@ const Productsgrid = () => {
   }, []);
   return (
     <div
-      id="product"
+      id="products"
       className="w-full lg:px-20 px-5 py-[80px] bg-gray-100 flex flex-col justify-center items-center gap-4"
     >
       <h1
@@ -44,7 +44,7 @@ const Productsgrid = () => {
       >
         {products.map((item, index) => (
           <div
-            id="product"
+            id="product-box"
             key={index}
             className="w-full flex flex-col justify-center items-center gap-2 bg-white  rounded-lg p-4 cursor-pointer relative"
           >

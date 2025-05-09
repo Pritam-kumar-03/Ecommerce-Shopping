@@ -8,5 +8,8 @@
 }
 
 #product-box:hover{
-    display: flex !important;
+    #icons{
+        display: flex !important;
+    }
+    
 }
